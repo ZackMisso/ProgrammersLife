@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE5B30AD1B4B04720012B7C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30AC1B4B04720012B7C8 /* main.m */; };
+		DE5B30B01B4B04720012B7C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30AF1B4B04720012B7C8 /* AppDelegate.m */; };
+		DE5B30B81B4B04720012B7C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5B30B71B4B04720012B7C8 /* Assets.xcassets */; };
+		DE5B30C61B4B04730012B7C8 /* ProgrammersLifeiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30C51B4B04730012B7C8 /* ProgrammersLifeiOSTests.m */; };
+		DE5B30D11B4B04730012B7C8 /* ProgrammersLifeiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30D01B4B04730012B7C8 /* ProgrammersLifeiOSUITests.m */; };
+		DE5B30E01B4B075B0012B7C8 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30DF1B4B075B0012B7C8 /* GameViewController.m */; };
+		DE5B30E31B4B08FD0012B7C8 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30E21B4B08FD0012B7C8 /* GameView.m */; };
+		DE5B30E91B4B0B410012B7C8 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30E81B4B0B410012B7C8 /* Player.m */; };
+		DE5B30ED1B4B0B810012B7C8 /* BaseStats.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30EC1B4B0B810012B7C8 /* BaseStats.m */; };
+		DE5B30EF1B4B0E5A0012B7C8 /* SkillStats.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30EE1B4B0E5A0012B7C8 /* SkillStats.m */; };
+		DE5B30F31B4B0F040012B7C8 /* Skill.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30F21B4B0F040012B7C8 /* Skill.m */; };
+		DE5B30F51B4B11470012B7C8 /* SkillRequirement.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30F41B4B11470012B7C8 /* SkillRequirement.m */; };
+		DE5B30F91B4B16540012B7C8 /* PointStats.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30F81B4B16540012B7C8 /* PointStats.m */; };
+		DE5B30FB1B4B40110012B7C8 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30FA1B4B40110012B7C8 /* Sprite.m */; };
+		DE5B30FF1B4B42C10012B7C8 /* RepositoryContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30FE1B4B42C10012B7C8 /* RepositoryContainer.m */; };
+		DE5B31011B4B43050012B7C8 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B31001B4B43050012B7C8 /* Repository.m */; };
+		DE5B31061B4B43950012B7C8 /* TimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B31051B4B43950012B7C8 /* TimeStamp.m */; };
+		DE5B310A1B4B46AA0012B7C8 /* Assignment.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B31091B4B46AA0012B7C8 /* Assignment.m */; };
+		DE5B310E1B4B4EDC0012B7C8 /* Feature.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B310D1B4B4EDB0012B7C8 /* Feature.m */; };
+		DE5B31101B4B541A0012B7C8 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B310F1B4B541A0012B7C8 /* Job.m */; };
+		DE5B31141B4B54890012B7C8 /* MonthCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B31131B4B54890012B7C8 /* MonthCalendar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE5B30C21B4B04730012B7C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5B30A01B4B04720012B7C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5B30A71B4B04720012B7C8;
+			remoteInfo = ProgrammersLifeiOS;
+		};
+		DE5B30CD1B4B04730012B7C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5B30A01B4B04720012B7C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5B30A71B4B04720012B7C8;
+			remoteInfo = ProgrammersLifeiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE5B30A81B4B04720012B7C8 /* ProgrammersLifeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammersLifeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5B30AC1B4B04720012B7C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE5B30AE1B4B04720012B7C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE5B30AF1B4B04720012B7C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE5B30B71B4B04720012B7C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE5B30BC1B4B04720012B7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5B30C11B4B04730012B7C8 /* ProgrammersLifeiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammersLifeiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5B30C51B4B04730012B7C8 /* ProgrammersLifeiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgrammersLifeiOSTests.m; sourceTree = "<group>"; };
+		DE5B30C71B4B04730012B7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5B30CC1B4B04730012B7C8 /* ProgrammersLifeiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammersLifeiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5B30D01B4B04730012B7C8 /* ProgrammersLifeiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgrammersLifeiOSUITests.m; sourceTree = "<group>"; };
+		DE5B30D21B4B04730012B7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5B30DF1B4B075B0012B7C8 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DE5B30E11B4B076D0012B7C8 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DE5B30E21B4B08FD0012B7C8 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		DE5B30E41B4B09090012B7C8 /* GameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		DE5B30E81B4B0B410012B7C8 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		DE5B30EA1B4B0B4B0012B7C8 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		DE5B30EB1B4B0B750012B7C8 /* BaseStats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseStats.h; sourceTree = "<group>"; };
+		DE5B30EC1B4B0B810012B7C8 /* BaseStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStats.m; sourceTree = "<group>"; };
+		DE5B30EE1B4B0E5A0012B7C8 /* SkillStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillStats.m; sourceTree = "<group>"; };
+		DE5B30F01B4B0E650012B7C8 /* SkillStats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkillStats.h; sourceTree = "<group>"; };
+		DE5B30F11B4B0EF90012B7C8 /* Skill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Skill.h; sourceTree = "<group>"; };
+		DE5B30F21B4B0F040012B7C8 /* Skill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skill.m; sourceTree = "<group>"; };
+		DE5B30F41B4B11470012B7C8 /* SkillRequirement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillRequirement.m; sourceTree = "<group>"; };
+		DE5B30F61B4B11590012B7C8 /* SkillRequirement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkillRequirement.h; sourceTree = "<group>"; };
+		DE5B30F71B4B16480012B7C8 /* PointStats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointStats.h; sourceTree = "<group>"; };
+		DE5B30F81B4B16540012B7C8 /* PointStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointStats.m; sourceTree = "<group>"; };
+		DE5B30FA1B4B40110012B7C8 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		DE5B30FC1B4B401D0012B7C8 /* Sprite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		DE5B30FD1B4B42870012B7C8 /* RepositoryContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepositoryContainer.h; sourceTree = "<group>"; };
+		DE5B30FE1B4B42C10012B7C8 /* RepositoryContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryContainer.m; sourceTree = "<group>"; };
+		DE5B31001B4B43050012B7C8 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		DE5B31021B4B430F0012B7C8 /* Repository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		DE5B31041B4B43880012B7C8 /* TimeStamp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeStamp.h; sourceTree = "<group>"; };
+		DE5B31051B4B43950012B7C8 /* TimeStamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeStamp.m; sourceTree = "<group>"; };
+		DE5B31081B4B469D0012B7C8 /* Assignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assignment.h; sourceTree = "<group>"; };
+		DE5B31091B4B46AA0012B7C8 /* Assignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment.m; sourceTree = "<group>"; };
+		DE5B310C1B4B4EC90012B7C8 /* Feature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Feature.h; sourceTree = "<group>"; };
+		DE5B310D1B4B4EDB0012B7C8 /* Feature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feature.m; sourceTree = "<group>"; };
+		DE5B310F1B4B541A0012B7C8 /* Job.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Job.m; sourceTree = "<group>"; };
+		DE5B31111B4B54250012B7C8 /* Job.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Job.h; sourceTree = "<group>"; };
+		DE5B31121B4B547A0012B7C8 /* MonthCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonthCalendar.h; sourceTree = "<group>"; };
+		DE5B31131B4B54890012B7C8 /* MonthCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthCalendar.m; sourceTree = "<group>"; };
+		DE5B31151B4B57960012B7C8 /* PlayerStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerStatus.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE5B30A51B4B04720012B7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5B30BE1B4B04730012B7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5B30C91B4B04730012B7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE5B309F1B4B04720012B7C8 = {
+			isa = PBXGroup;
+			children = (
+				DE5B30AA1B4B04720012B7C8 /* ProgrammersLifeiOS */,
+				DE5B30C41B4B04730012B7C8 /* ProgrammersLifeiOSTests */,
+				DE5B30CF1B4B04730012B7C8 /* ProgrammersLifeiOSUITests */,
+				DE5B30A91B4B04720012B7C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE5B30A91B4B04720012B7C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B30A81B4B04720012B7C8 /* ProgrammersLifeiOS.app */,
+				DE5B30C11B4B04730012B7C8 /* ProgrammersLifeiOSTests.xctest */,
+				DE5B30CC1B4B04730012B7C8 /* ProgrammersLifeiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE5B30AA1B4B04720012B7C8 /* ProgrammersLifeiOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B310B1B4B4EA60012B7C8 /* RepositoryData */,
+				DE5B31071B4B46850012B7C8 /* CareerPathSpecific */,
+				DE5B31031B4B43790012B7C8 /* TimeData */,
+				DE5B30E71B4B0B230012B7C8 /* GameData */,
+				DE5B30E61B4B095E0012B7C8 /* Core */,
+				DE5B30E51B4B09400012B7C8 /* UI */,
+				DE5B30BC1B4B04720012B7C8 /* Info.plist */,
+				DE5B30B71B4B04720012B7C8 /* Assets.xcassets */,
+				DE5B30AB1B4B04720012B7C8 /* Supporting Files */,
+			);
+			path = ProgrammersLifeiOS;
+			sourceTree = "<group>";
+		};
+		DE5B30AB1B4B04720012B7C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B30AC1B4B04720012B7C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE5B30C41B4B04730012B7C8 /* ProgrammersLifeiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B30C51B4B04730012B7C8 /* ProgrammersLifeiOSTests.m */,
+				DE5B30C71B4B04730012B7C8 /* Info.plist */,
+			);
+			path = ProgrammersLifeiOSTests;
+			sourceTree = "<group>";
+		};
+		DE5B30CF1B4B04730012B7C8 /* ProgrammersLifeiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B30D01B4B04730012B7C8 /* ProgrammersLifeiOSUITests.m */,
+				DE5B30D21B4B04730012B7C8 /* Info.plist */,
+			);
+			path = ProgrammersLifeiOSUITests;
+			sourceTree = "<group>";
+		};
+		DE5B30E51B4B09400012B7C8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B30DF1B4B075B0012B7C8 /* GameViewController.m */,
+				DE5B30E11B4B076D0012B7C8 /* GameViewController.h */,
+				DE5B30E21B4B08FD0012B7C8 /* GameView.m */,
+				DE5B30E41B4B09090012B7C8 /* GameView.h */,
+				DE5B30FA1B4B40110012B7C8 /* Sprite.m */,
+				DE5B30FC1B4B401D0012B7C8 /* Sprite.h */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		DE5B30E61B4B095E0012B7C8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B30AE1B4B04720012B7C8 /* AppDelegate.h */,
+				DE5B30AF1B4B04720012B7C8 /* AppDelegate.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DE5B30E71B4B0B230012B7C8 /* GameData */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B30E81B4B0B410012B7C8 /* Player.m */,
+				DE5B30EA1B4B0B4B0012B7C8 /* Player.h */,
+				DE5B30EB1B4B0B750012B7C8 /* BaseStats.h */,
+				DE5B30EC1B4B0B810012B7C8 /* BaseStats.m */,
+				DE5B30EE1B4B0E5A0012B7C8 /* SkillStats.m */,
+				DE5B30F01B4B0E650012B7C8 /* SkillStats.h */,
+				DE5B30F11B4B0EF90012B7C8 /* Skill.h */,
+				DE5B30F21B4B0F040012B7C8 /* Skill.m */,
+				DE5B30F41B4B11470012B7C8 /* SkillRequirement.m */,
+				DE5B30F61B4B11590012B7C8 /* SkillRequirement.h */,
+				DE5B30F71B4B16480012B7C8 /* PointStats.h */,
+				DE5B30F81B4B16540012B7C8 /* PointStats.m */,
+				DE5B31151B4B57960012B7C8 /* PlayerStatus.h */,
+			);
+			name = GameData;
+			sourceTree = "<group>";
+		};
+		DE5B31031B4B43790012B7C8 /* TimeData */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B31041B4B43880012B7C8 /* TimeStamp.h */,
+				DE5B31051B4B43950012B7C8 /* TimeStamp.m */,
+				DE5B31121B4B547A0012B7C8 /* MonthCalendar.h */,
+				DE5B31131B4B54890012B7C8 /* MonthCalendar.m */,
+			);
+			name = TimeData;
+			sourceTree = "<group>";
+		};
+		DE5B31071B4B46850012B7C8 /* CareerPathSpecific */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B31081B4B469D0012B7C8 /* Assignment.h */,
+				DE5B31091B4B46AA0012B7C8 /* Assignment.m */,
+				DE5B310F1B4B541A0012B7C8 /* Job.m */,
+				DE5B31111B4B54250012B7C8 /* Job.h */,
+			);
+			name = CareerPathSpecific;
+			sourceTree = "<group>";
+		};
+		DE5B310B1B4B4EA60012B7C8 /* RepositoryData */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B30FD1B4B42870012B7C8 /* RepositoryContainer.h */,
+				DE5B30FE1B4B42C10012B7C8 /* RepositoryContainer.m */,
+				DE5B31001B4B43050012B7C8 /* Repository.m */,
+				DE5B31021B4B430F0012B7C8 /* Repository.h */,
+				DE5B310C1B4B4EC90012B7C8 /* Feature.h */,
+				DE5B310D1B4B4EDB0012B7C8 /* Feature.m */,
+			);
+			name = RepositoryData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE5B30A71B4B04720012B7C8 /* ProgrammersLifeiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5B30D51B4B04730012B7C8 /* Build configuration list for PBXNativeTarget "ProgrammersLifeiOS" */;
+			buildPhases = (
+				DE5B30A41B4B04720012B7C8 /* Sources */,
+				DE5B30A51B4B04720012B7C8 /* Frameworks */,
+				DE5B30A61B4B04720012B7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgrammersLifeiOS;
+			productName = ProgrammersLifeiOS;
+			productReference = DE5B30A81B4B04720012B7C8 /* ProgrammersLifeiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE5B30C01B4B04730012B7C8 /* ProgrammersLifeiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5B30D81B4B04730012B7C8 /* Build configuration list for PBXNativeTarget "ProgrammersLifeiOSTests" */;
+			buildPhases = (
+				DE5B30BD1B4B04730012B7C8 /* Sources */,
+				DE5B30BE1B4B04730012B7C8 /* Frameworks */,
+				DE5B30BF1B4B04730012B7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5B30C31B4B04730012B7C8 /* PBXTargetDependency */,
+			);
+			name = ProgrammersLifeiOSTests;
+			productName = ProgrammersLifeiOSTests;
+			productReference = DE5B30C11B4B04730012B7C8 /* ProgrammersLifeiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE5B30CB1B4B04730012B7C8 /* ProgrammersLifeiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5B30DB1B4B04730012B7C8 /* Build configuration list for PBXNativeTarget "ProgrammersLifeiOSUITests" */;
+			buildPhases = (
+				DE5B30C81B4B04730012B7C8 /* Sources */,
+				DE5B30C91B4B04730012B7C8 /* Frameworks */,
+				DE5B30CA1B4B04730012B7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5B30CE1B4B04730012B7C8 /* PBXTargetDependency */,
+			);
+			name = ProgrammersLifeiOSUITests;
+			productName = ProgrammersLifeiOSUITests;
+			productReference = DE5B30CC1B4B04730012B7C8 /* ProgrammersLifeiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE5B30A01B4B04720012B7C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Zackary Misso";
+				TargetAttributes = {
+					DE5B30A71B4B04720012B7C8 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DE5B30C01B4B04730012B7C8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DE5B30A71B4B04720012B7C8;
+					};
+					DE5B30CB1B4B04730012B7C8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DE5B30A71B4B04720012B7C8;
+					};
+				};
+			};
+			buildConfigurationList = DE5B30A31B4B04720012B7C8 /* Build configuration list for PBXProject "ProgrammersLifeiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE5B309F1B4B04720012B7C8;
+			productRefGroup = DE5B30A91B4B04720012B7C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE5B30A71B4B04720012B7C8 /* ProgrammersLifeiOS */,
+				DE5B30C01B4B04730012B7C8 /* ProgrammersLifeiOSTests */,
+				DE5B30CB1B4B04730012B7C8 /* ProgrammersLifeiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE5B30A61B4B04720012B7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B30B81B4B04720012B7C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5B30BF1B4B04730012B7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5B30CA1B4B04730012B7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE5B30A41B4B04720012B7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B310E1B4B4EDC0012B7C8 /* Feature.m in Sources */,
+				DE5B30FB1B4B40110012B7C8 /* Sprite.m in Sources */,
+				DE5B30ED1B4B0B810012B7C8 /* BaseStats.m in Sources */,
+				DE5B30F31B4B0F040012B7C8 /* Skill.m in Sources */,
+				DE5B30FF1B4B42C10012B7C8 /* RepositoryContainer.m in Sources */,
+				DE5B30F91B4B16540012B7C8 /* PointStats.m in Sources */,
+				DE5B30B01B4B04720012B7C8 /* AppDelegate.m in Sources */,
+				DE5B31101B4B541A0012B7C8 /* Job.m in Sources */,
+				DE5B31061B4B43950012B7C8 /* TimeStamp.m in Sources */,
+				DE5B30EF1B4B0E5A0012B7C8 /* SkillStats.m in Sources */,
+				DE5B30E01B4B075B0012B7C8 /* GameViewController.m in Sources */,
+				DE5B30E31B4B08FD0012B7C8 /* GameView.m in Sources */,
+				DE5B30F51B4B11470012B7C8 /* SkillRequirement.m in Sources */,
+				DE5B30AD1B4B04720012B7C8 /* main.m in Sources */,
+				DE5B31141B4B54890012B7C8 /* MonthCalendar.m in Sources */,
+				DE5B30E91B4B0B410012B7C8 /* Player.m in Sources */,
+				DE5B310A1B4B46AA0012B7C8 /* Assignment.m in Sources */,
+				DE5B31011B4B43050012B7C8 /* Repository.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5B30BD1B4B04730012B7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B30C61B4B04730012B7C8 /* ProgrammersLifeiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5B30C81B4B04730012B7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5B30D11B4B04730012B7C8 /* ProgrammersLifeiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE5B30C31B4B04730012B7C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5B30A71B4B04720012B7C8 /* ProgrammersLifeiOS */;
+			targetProxy = DE5B30C21B4B04730012B7C8 /* PBXContainerItemProxy */;
+		};
+		DE5B30CE1B4B04730012B7C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5B30A71B4B04720012B7C8 /* ProgrammersLifeiOS */;
+			targetProxy = DE5B30CD1B4B04730012B7C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE5B30D31B4B04730012B7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE5B30D41B4B04730012B7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE5B30D61B4B04730012B7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProgrammersLifeiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZM.ProgrammersLifeiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE5B30D71B4B04730012B7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProgrammersLifeiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZM.ProgrammersLifeiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE5B30D91B4B04730012B7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProgrammersLifeiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZM.ProgrammersLifeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammersLifeiOS.app/ProgrammersLifeiOS";
+			};
+			name = Debug;
+		};
+		DE5B30DA1B4B04730012B7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProgrammersLifeiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZM.ProgrammersLifeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammersLifeiOS.app/ProgrammersLifeiOS";
+			};
+			name = Release;
+		};
+		DE5B30DC1B4B04730012B7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProgrammersLifeiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZM.ProgrammersLifeiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProgrammersLifeiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DE5B30DD1B4B04730012B7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProgrammersLifeiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZM.ProgrammersLifeiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProgrammersLifeiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE5B30A31B4B04720012B7C8 /* Build configuration list for PBXProject "ProgrammersLifeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5B30D31B4B04730012B7C8 /* Debug */,
+				DE5B30D41B4B04730012B7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5B30D51B4B04730012B7C8 /* Build configuration list for PBXNativeTarget "ProgrammersLifeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5B30D61B4B04730012B7C8 /* Debug */,
+				DE5B30D71B4B04730012B7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE5B30D81B4B04730012B7C8 /* Build configuration list for PBXNativeTarget "ProgrammersLifeiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5B30D91B4B04730012B7C8 /* Debug */,
+				DE5B30DA1B4B04730012B7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE5B30DB1B4B04730012B7C8 /* Build configuration list for PBXNativeTarget "ProgrammersLifeiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5B30DC1B4B04730012B7C8 /* Debug */,
+				DE5B30DD1B4B04730012B7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE5B30A01B4B04720012B7C8 /* Project object */;
+}

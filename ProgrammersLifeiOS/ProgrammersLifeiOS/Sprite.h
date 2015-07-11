@@ -14,6 +14,7 @@
     float ypos;
     int width;
     int height;
+    BOOL displayed;
 }
 
 // getter methods
@@ -21,11 +22,13 @@
 -(float)getYpos;
 -(int)getWidth;
 -(int)getHight;
+-(BOOL)getDisplayed;
 
 // setter methods
 -(void)setXpos:(float)value;
 -(void)setYpos:(float)value;
 -(void)setWidth:(int)value;
 -(void)setHeight:(int)value;
+-(void)setDisplayed:(BOOL)value;
 
 @end

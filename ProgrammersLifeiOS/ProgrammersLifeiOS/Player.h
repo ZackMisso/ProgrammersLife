@@ -12,12 +12,14 @@
 #import "PointStats.h"
 #import "RepositoryContainer.h"
 #import "PlayerStatus.h"
+#import "Job.h"
 
 @interface Player : NSObject{
     RepositoryContainer* repositories;
     BaseStats* baseStats;
     SkillStats* skillStats;
     PointStats* pointStats;
+    Job* job;
     int hackerPoints;
     PlayerStatus status;
 }
@@ -27,6 +29,7 @@
 -(BaseStats*)getBaseStats;
 -(SkillStats*)getSkillStats;
 -(PointStats*)getPointStats;
+-(Job*)getJob;
 -(int)getHackerPoints;
 -(PlayerStatus)getPlayerStatus;
 
@@ -35,6 +38,7 @@
 -(void)setBaseStats:(BaseStats*)value;
 -(void)setSkillStats:(SkillStats*)value;
 -(void)setPointStats:(PointStats*)value;
+-(void)setJob:(Job*)value;
 -(void)setHackerPoints:(int)value;
 -(void)setPlayerStatus:(PlayerStatus)value;
 

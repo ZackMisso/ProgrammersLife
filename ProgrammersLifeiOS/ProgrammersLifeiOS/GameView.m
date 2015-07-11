@@ -12,9 +12,14 @@
 
 -(id)initWithFrame:(CGRect)frame{
     if(self = [super initWithFrame: frame]){
-        self.backgroundColor = [UIColor blackColor];
+        [self initialize];
     }
     return self;
+}
+
+-(void)initialize{
+    self.backgroundColor = [UIColor blackColor];
+    // to be implemented
 }
 
 -(void)update{
@@ -23,8 +28,12 @@
 
 // getter methods
 -(Player*)getPlayer { return player; }
+-(MonthCalendar*)getCalendar { return calendar; }
+-(TimeStamp*)getTime { return time; }
 
 // setter methods
 -(void)setPlayer:(Player*)value { player = value; }
+-(void)setCalendar:(MonthCalendar*)value { calendar = value; }
+-(void)setTime:(TimeStamp*)value { time = value; }
 
 @end

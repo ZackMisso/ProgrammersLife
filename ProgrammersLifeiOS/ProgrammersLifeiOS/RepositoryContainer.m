@@ -17,4 +17,10 @@
     return self;
 }
 
+// getter methods
+-(NSMutableArray*)getRepositories { return repositories; }
+
+// setter methods
+-(void)setRepositories:(NSMutableArray*)value { repositories = value; }
+
 @end

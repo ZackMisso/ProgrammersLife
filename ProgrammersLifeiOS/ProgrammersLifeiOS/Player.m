@@ -15,6 +15,7 @@
         baseStats = [[BaseStats alloc]init];
         skillStats = [[SkillStats alloc]init];
         pointStats = [[PointStats alloc]init];
+        job = NULL;
         hackerPoints = 0;
         status = None;
     }
@@ -26,6 +27,7 @@
 -(BaseStats*)getBaseStats { return baseStats; }
 -(SkillStats*)getSkillStats { return skillStats; }
 -(PointStats*)getPointStats { return pointStats; }
+-(Job*)getJob { return job; }
 -(int)getHackerPoints { return hackerPoints; }
 -(PlayerStatus)getPlayerStatus { return status; }
 
@@ -34,6 +36,7 @@
 -(void)setBaseStats:(BaseStats*)value { baseStats = value; }
 -(void)setSkillStats:(SkillStats*)value { skillStats = value; }
 -(void)setPointStats:(PointStats*)value { pointStats = value; }
+-(void)setJob:(Job*)value { job = value; }
 -(void)setHackerPoints:(int)value { hackerPoints = value; }
 -(void)setPlayerStatus:(PlayerStatus)value { status = value; }
 

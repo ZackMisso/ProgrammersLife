@@ -19,12 +19,14 @@
 
 // getter methods
 -(float)getFeatureDesignScore { return featureDesignScore; }
+-(float)getDifficulty { return difficulty; }
 -(int)getNumberOfAdditionsNeededAtBest { return numberOfAdditionsNeededAtBest; }
 -(int)getNumberOfAdditionsMade { return numberOfAdditionsMade; }
 -(int)getNumberOfDeletionsMade { return numberOfDeletionsMade; }
 
 // setter methods
 -(void)setFeatureDesignScore:(float)value { featureDesignScore = value; }
+-(void)setDifficulty:(float)value { difficulty = value; }
 -(void)setNumberOfAdditionsNeededAtBest:(int)value { numberOfAdditionsNeededAtBest = value; }
 -(void)setNumberOfAdditionsMade:(int)value { numberOfAdditionsMade = value; }
 -(void)setNumberOfDeletuibsMade:(int)value { numberOfDeletionsMade = value; }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE2361321B50E7CA0008FF2B /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2361311B50E7CA0008FF2B /* Label.m */; };
+		DE2361351B50EB720008FF2B /* FeatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2361341B50EB720008FF2B /* FeatureGenerator.m */; };
+		DE2361391B50ED800008FF2B /* AssignmentGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2361381B50ED800008FF2B /* AssignmentGenerator.m */; };
+		DE23613C1B50EE8E0008FF2B /* JobGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE23613B1B50EE8E0008FF2B /* JobGenerator.m */; };
 		DE5B30AD1B4B04720012B7C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30AC1B4B04720012B7C8 /* main.m */; };
 		DE5B30B01B4B04720012B7C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B30AF1B4B04720012B7C8 /* AppDelegate.m */; };
 		DE5B30B81B4B04720012B7C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5B30B71B4B04720012B7C8 /* Assets.xcassets */; };
@@ -48,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE2361311B50E7CA0008FF2B /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
+		DE2361331B50E7D50008FF2B /* Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		DE2361341B50EB720008FF2B /* FeatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeatureGenerator.m; sourceTree = "<group>"; };
+		DE2361361B50EB7F0008FF2B /* FeatureGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeatureGenerator.h; sourceTree = "<group>"; };
+		DE2361371B50ED720008FF2B /* AssignmentGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssignmentGenerator.h; sourceTree = "<group>"; };
+		DE2361381B50ED800008FF2B /* AssignmentGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentGenerator.m; sourceTree = "<group>"; };
+		DE23613A1B50EE7F0008FF2B /* JobGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobGenerator.h; sourceTree = "<group>"; };
+		DE23613B1B50EE8E0008FF2B /* JobGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobGenerator.m; sourceTree = "<group>"; };
 		DE5B30A81B4B04720012B7C8 /* ProgrammersLifeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammersLifeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5B30AC1B4B04720012B7C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE5B30AE1B4B04720012B7C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -191,6 +203,8 @@
 				DE5B30E41B4B09090012B7C8 /* GameView.h */,
 				DE5B30FA1B4B40110012B7C8 /* Sprite.m */,
 				DE5B30FC1B4B401D0012B7C8 /* Sprite.h */,
+				DE2361311B50E7CA0008FF2B /* Label.m */,
+				DE2361331B50E7D50008FF2B /* Label.h */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -242,6 +256,10 @@
 				DE5B31091B4B46AA0012B7C8 /* Assignment.m */,
 				DE5B310F1B4B541A0012B7C8 /* Job.m */,
 				DE5B31111B4B54250012B7C8 /* Job.h */,
+				DE2361371B50ED720008FF2B /* AssignmentGenerator.h */,
+				DE2361381B50ED800008FF2B /* AssignmentGenerator.m */,
+				DE23613A1B50EE7F0008FF2B /* JobGenerator.h */,
+				DE23613B1B50EE8E0008FF2B /* JobGenerator.m */,
 			);
 			name = CareerPathSpecific;
 			sourceTree = "<group>";
@@ -255,6 +273,8 @@
 				DE5B31021B4B430F0012B7C8 /* Repository.h */,
 				DE5B310C1B4B4EC90012B7C8 /* Feature.h */,
 				DE5B310D1B4B4EDB0012B7C8 /* Feature.m */,
+				DE2361341B50EB720008FF2B /* FeatureGenerator.m */,
+				DE2361361B50EB7F0008FF2B /* FeatureGenerator.h */,
 			);
 			name = RepositoryData;
 			sourceTree = "<group>";
@@ -390,13 +410,17 @@
 				DE5B310E1B4B4EDC0012B7C8 /* Feature.m in Sources */,
 				DE5B30FB1B4B40110012B7C8 /* Sprite.m in Sources */,
 				DE5B30ED1B4B0B810012B7C8 /* BaseStats.m in Sources */,
+				DE23613C1B50EE8E0008FF2B /* JobGenerator.m in Sources */,
 				DE5B30F31B4B0F040012B7C8 /* Skill.m in Sources */,
 				DE5B30FF1B4B42C10012B7C8 /* RepositoryContainer.m in Sources */,
 				DE5B30F91B4B16540012B7C8 /* PointStats.m in Sources */,
+				DE2361321B50E7CA0008FF2B /* Label.m in Sources */,
 				DE5B30B01B4B04720012B7C8 /* AppDelegate.m in Sources */,
+				DE2361351B50EB720008FF2B /* FeatureGenerator.m in Sources */,
 				DE5B31101B4B541A0012B7C8 /* Job.m in Sources */,
 				DE5B31061B4B43950012B7C8 /* TimeStamp.m in Sources */,
 				DE5B30EF1B4B0E5A0012B7C8 /* SkillStats.m in Sources */,
+				DE2361391B50ED800008FF2B /* AssignmentGenerator.m in Sources */,
 				DE5B30E01B4B075B0012B7C8 /* GameViewController.m in Sources */,
 				DE5B30E31B4B08FD0012B7C8 /* GameView.m in Sources */,
 				DE5B30F51B4B11470012B7C8 /* SkillRequirement.m in Sources */,
@@ -611,6 +635,7 @@
 				DE5B30D71B4B04730012B7C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE5B30D81B4B04730012B7C8 /* Build configuration list for PBXNativeTarget "ProgrammersLifeiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -619,6 +644,7 @@
 				DE5B30DA1B4B04730012B7C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE5B30DB1B4B04730012B7C8 /* Build configuration list for PBXNativeTarget "ProgrammersLifeiOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -627,6 +653,7 @@
 				DE5B30DD1B4B04730012B7C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,6 +17,11 @@
     return self;
 }
 
+-(int)calculateChangesToBeMade:(Player*)player{
+    // to be implemented
+    return -1;
+}
+
 // getter methods
 -(NSString*)getName { return name; }
 -(Feature*)getCurrentFeature { return currentFeature; }

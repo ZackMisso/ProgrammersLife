@@ -17,6 +17,8 @@
     BOOL displayed;
 }
 
+-(void)draw;
+
 // getter methods
 -(float)getXpos;
 -(float)getYpos;

@@ -32,6 +32,10 @@
 		DE5B310E1B4B4EDC0012B7C8 /* Feature.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B310D1B4B4EDB0012B7C8 /* Feature.m */; };
 		DE5B31101B4B541A0012B7C8 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B310F1B4B541A0012B7C8 /* Job.m */; };
 		DE5B31141B4B54890012B7C8 /* MonthCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B31131B4B54890012B7C8 /* MonthCalendar.m */; };
+		DE6C88D11B53532E0097B6BD /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6C88D01B53532E0097B6BD /* Button.m */; };
+		DE6C88D31B5354130097B6BD /* Day.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6C88D21B5354130097B6BD /* Day.m */; };
+		DE6C88D71B5359040097B6BD /* EventController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6C88D61B5359040097B6BD /* EventController.m */; };
+		DE6C88D91B535BC40097B6BD /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6C88D81B535BC40097B6BD /* Event.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +109,14 @@
 		DE5B31121B4B547A0012B7C8 /* MonthCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonthCalendar.h; sourceTree = "<group>"; };
 		DE5B31131B4B54890012B7C8 /* MonthCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthCalendar.m; sourceTree = "<group>"; };
 		DE5B31151B4B57960012B7C8 /* PlayerStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerStatus.h; sourceTree = "<group>"; };
+		DE6C88CF1B5353230097B6BD /* Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		DE6C88D01B53532E0097B6BD /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		DE6C88D21B5354130097B6BD /* Day.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Day.m; sourceTree = "<group>"; };
+		DE6C88D41B53541E0097B6BD /* Day.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day.h; sourceTree = "<group>"; };
+		DE6C88D51B5358F80097B6BD /* EventController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventController.h; sourceTree = "<group>"; };
+		DE6C88D61B5359040097B6BD /* EventController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventController.m; sourceTree = "<group>"; };
+		DE6C88D81B535BC40097B6BD /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		DE6C88DA1B535BD10097B6BD /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +167,7 @@
 		DE5B30AA1B4B04720012B7C8 /* ProgrammersLifeiOS */ = {
 			isa = PBXGroup;
 			children = (
+				DE6C88DB1B535BD80097B6BD /* Events */,
 				DE5B310B1B4B4EA60012B7C8 /* RepositoryData */,
 				DE5B31071B4B46850012B7C8 /* CareerPathSpecific */,
 				DE5B31031B4B43790012B7C8 /* TimeData */,
@@ -205,6 +218,8 @@
 				DE5B30FC1B4B401D0012B7C8 /* Sprite.h */,
 				DE2361311B50E7CA0008FF2B /* Label.m */,
 				DE2361331B50E7D50008FF2B /* Label.h */,
+				DE6C88CF1B5353230097B6BD /* Button.h */,
+				DE6C88D01B53532E0097B6BD /* Button.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -245,6 +260,10 @@
 				DE5B31051B4B43950012B7C8 /* TimeStamp.m */,
 				DE5B31121B4B547A0012B7C8 /* MonthCalendar.h */,
 				DE5B31131B4B54890012B7C8 /* MonthCalendar.m */,
+				DE6C88D21B5354130097B6BD /* Day.m */,
+				DE6C88D41B53541E0097B6BD /* Day.h */,
+				DE6C88D51B5358F80097B6BD /* EventController.h */,
+				DE6C88D61B5359040097B6BD /* EventController.m */,
 			);
 			name = TimeData;
 			sourceTree = "<group>";
@@ -277,6 +296,15 @@
 				DE2361361B50EB7F0008FF2B /* FeatureGenerator.h */,
 			);
 			name = RepositoryData;
+			sourceTree = "<group>";
+		};
+		DE6C88DB1B535BD80097B6BD /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				DE6C88D81B535BC40097B6BD /* Event.m */,
+				DE6C88DA1B535BD10097B6BD /* Event.h */,
+			);
+			name = Events;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,6 +441,7 @@
 				DE23613C1B50EE8E0008FF2B /* JobGenerator.m in Sources */,
 				DE5B30F31B4B0F040012B7C8 /* Skill.m in Sources */,
 				DE5B30FF1B4B42C10012B7C8 /* RepositoryContainer.m in Sources */,
+				DE6C88D31B5354130097B6BD /* Day.m in Sources */,
 				DE5B30F91B4B16540012B7C8 /* PointStats.m in Sources */,
 				DE2361321B50E7CA0008FF2B /* Label.m in Sources */,
 				DE5B30B01B4B04720012B7C8 /* AppDelegate.m in Sources */,
@@ -420,12 +449,15 @@
 				DE5B31101B4B541A0012B7C8 /* Job.m in Sources */,
 				DE5B31061B4B43950012B7C8 /* TimeStamp.m in Sources */,
 				DE5B30EF1B4B0E5A0012B7C8 /* SkillStats.m in Sources */,
+				DE6C88D11B53532E0097B6BD /* Button.m in Sources */,
 				DE2361391B50ED800008FF2B /* AssignmentGenerator.m in Sources */,
+				DE6C88D91B535BC40097B6BD /* Event.m in Sources */,
 				DE5B30E01B4B075B0012B7C8 /* GameViewController.m in Sources */,
 				DE5B30E31B4B08FD0012B7C8 /* GameView.m in Sources */,
 				DE5B30F51B4B11470012B7C8 /* SkillRequirement.m in Sources */,
 				DE5B30AD1B4B04720012B7C8 /* main.m in Sources */,
 				DE5B31141B4B54890012B7C8 /* MonthCalendar.m in Sources */,
+				DE6C88D71B5359040097B6BD /* EventController.m in Sources */,
 				DE5B30E91B4B0B410012B7C8 /* Player.m in Sources */,
 				DE5B310A1B4B46AA0012B7C8 /* Assignment.m in Sources */,
 				DE5B31011B4B43050012B7C8 /* Repository.m in Sources */,

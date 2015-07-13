@@ -12,3 +12,10 @@ typedef enum {
     Sleeping,
     None
 } PlayerStatus;
+
+typedef enum {
+    HighSchool,
+    College,
+    GradSchool,
+    NoSchool
+} PlayerSchoolStatus;

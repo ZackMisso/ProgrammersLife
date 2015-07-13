@@ -21,6 +21,10 @@
     return self;
 }
 
+-(void)draw{
+    // to be implemented
+}
+
 // getter methods
 -(float)getXpos { return xpos; }
 -(float)getYpos { return ypos; }

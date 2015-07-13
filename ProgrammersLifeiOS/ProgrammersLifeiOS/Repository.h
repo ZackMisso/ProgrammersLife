@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Feature.h"
+#import "Player.h"
 
 @interface Repository : NSObject{
     NSString *name;
@@ -16,6 +17,8 @@
     int additions;
     int deletions;
 }
+
+-(int)calculateChangesToBeMade:(Player*)player;
 
 // getter methods
 -(NSString*)getName;

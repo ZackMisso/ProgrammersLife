@@ -1,0 +1,493 @@
+Languages
+Java
+C++
+Python
+Ruby
+C
+Objective-C
+Haskell
+HTML
+XML
+CSS
+Javascript
+Node.js
+Angular
+C#
+X86
+
+Frameworks/Topics
+OpenGL
+OpenCL
+Unity
+UnrealEngine
+DataStructures
+GreedyAlgorithms
+DynamicProgramming
+ProgrammingLanguages
+ComputerGraphics
+AI
+ComputerArchitecture
+Compilers
+ObjectOrientedProgramming
+FunctionalLanguages
+ImperitiveLanguages
+MachineLearning
+Ray-Tracing
+NeuralNetworks
+AutomataTheory
+UIDesign
+WebDesign
+WebDevelopment
+3D Modeling
+
+In-Depth Description
+
+Java ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+C++ ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+
+Python ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+Ruby ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+C ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+Objective-C ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+Haskell ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+HTML ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+CSS ::
+Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+Javascript ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+Node.js ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+Angular ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+C# ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+X86 ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+OpenGL ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+OpenCL ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+Unity ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+UnrealEngine ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+DataStructures ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+GreedyAlgorithms ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+DynamicProgramming ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+ProgrammingLanguages ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+ComputerGraphics ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+AI ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+ComputerArchitecture ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+Compilers ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+ObjectOrientedProgramming ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+FunctionalLanguages ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+ImperitiveLanguages ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+MachineLearning ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+Ray-Tracing ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+NeuralNetworks ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+AutomataTheory ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::
+
+UIDesign ::
+  Pre-Reqs ::
+    HTML Level 1
+    CSS Level 1
+  Level 1 Reqs ::
+    HTML Level 3
+    CSS Level 2
+  Level 2 Reqs ::
+    HTML Level 5
+    CSS Level 3
+  Level 3 Reqs ::
+    HTML Level 7
+    CSS Level 4
+  Level 4 Reqs ::
+    Javascript 1
+    CSS Level 5
+  Level 5 Reqs ::
+    Javascript 3
+    CSS Level 6
+  Level 6 Reqs ::
+    Javascript 5
+    CSS Level 7
+  Level 7 Reqs ::
+    Javascript 7
+
+
+WebDesign ::
+  Pre-Reqs ::
+    HTML Level 1
+    CSS Level 1
+  Level 1 Reqs ::
+    HTML Level 2
+    CSS Level 2
+    UIDesign Level 1
+  Level 2 Reqs ::
+    Javascript Level 1
+    HTML Level 3
+    CSS Level 3
+    UIDesign Level 2
+  Level 3 Reqs ::
+    HTML Level 4
+    CSS Level 4
+    UIDesign Level 3
+  Level 4 Reqs ::
+    Javascript Level 3
+    HTML Level 5
+    CSS Level 5
+    UIDesign Level 4
+  Level 5 Reqs ::
+    HTML Level 6
+    CSS Level 6
+    UIDesign Level 5
+  Level 6 Reqs ::
+    Javascript Level 5
+    HTML Level 7
+    CSS Level 7
+    UIDesign Level 6
+  Level 7 Reqs ::
+    Javascript Level 6
+    UIDesign Level 7
+
+WebDevelopment ::
+  Pre-Reqs ::
+    Javascript Level 1 or Ruby Level 1 or Python Level 1
+    HTML Level 1
+    CSS Level 1
+  Level 1 Reqs ::
+    Javascript Level 2
+    Ruby Level 1
+    Python Level 1
+    HTML Level 3
+    CSS Level 3
+  Level 2 Reqs ::
+    Javascript Level 3
+    Ruby Level 2
+    Python Level 2
+    HTML Level 5
+    CSS Level 5
+  Level 3 Reqs ::
+    Javascript Level 4
+    Ruby Level 3
+    Python Level 3
+    Node.js Level 1
+    Angular Level 1
+  Level 4 Reqs ::
+    Javascript Level 5
+    Ruby Level 4
+    Python Level 4
+    Node.js Level 2
+    Angular Level 2
+  Level 5 Reqs ::
+    Javascript Level 5
+    Ruby Level 4
+    Python Level 4
+    Node.js Level 3
+    Angular Level 3
+  Level 6 Reqs ::
+    Javascript Level 5
+    Ruby Level 5
+    Python Level 5
+    Node.js Level 5
+    Angular Level 5
+  Level 7 Reqs ::
+    Javascript Level 7
+    Ruby Level 7
+    Python Level 7
+    Node.js Level 7
+    Angular Level 7
+
+3D Modeling ::
+  Pre-Reqs ::
+  Level 1 Reqs ::
+  Level 2 Reqs ::
+  Level 3 Reqs ::
+  Level 4 Reqs ::
+  Level 5 Reqs ::
+  Level 6 Reqs ::
+  Level 7 Reqs ::

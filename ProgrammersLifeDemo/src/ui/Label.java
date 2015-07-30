@@ -2,8 +2,8 @@
 // Author :: Zackary Misso / FiralStudios
 // Version :: 0.0.1
 
-package time;
+package ui;
 
-public class Month {
+public class Label {
 
 }

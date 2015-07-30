@@ -16,6 +16,14 @@ public class Player {
 	
 	public Player(){}
 	
+	public void initializeForNewGame(){
+		// to be implemented
+	}
+	
+	public void update(){
+		// to be implemented
+	}
+	
 	// getter methods
 	public RepositoryContainer getRepositories(){return repositories;}
 	public BaseStats getBaseStats(){return baseStats;}

@@ -8,6 +8,7 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import javax.swing.JPanel;
 import gameState.GameStateController;
+import misc.RNG;
 
 public class GameThread extends JPanel implements Runnable {
 	private Game game;
@@ -18,6 +19,7 @@ public class GameThread extends JPanel implements Runnable {
 		game = param;
 		gsc = new GameStateController(this);
 		running = true;
+		init();
 	}
 	
 	public void update(){
@@ -28,15 +30,14 @@ public class GameThread extends JPanel implements Runnable {
 		BufferedImage backBuffer = new BufferedImage(880, 800, BufferedImage.TYPE_INT_RGB);
 		Graphics2D g2 = (Graphics2D)backBuffer.getGraphics();
 		gsc.draw(g2);
-		g.drawImage(backBuffer, 0, 0, game.window);
+		g.drawImage(backBuffer, 0, 0, game.getWindow());
 	}
 	
 	public void init(){
-		//RNG.init();
+		RNG.init();
 	}
 	
 	public void run(){
-		//init();
 		long lastTime = System.nanoTime();
 		double nsPerTick = 1000000000D / 60D;
 		int ticks = 0;
@@ -56,15 +57,15 @@ public class GameThread extends JPanel implements Runnable {
 			}
 			if(shouldRender){
 				frames++;
-				paint(game.window.getGraphics());
+				paint(game.getWindow().getGraphics());
 			}
 			if(System.currentTimeMillis() - lastTimer >= 1000){
 				lastTimer += 1000;
-				System.out.println("FPS :: "+ticks+" Frames :: "+frames);
-				//if(ticks >= 55 && frames >= 50){
-				//	RNG.extraTime();
-				//	RNG.extraTime();
-				//}
+				System.out.println("UPS :: "+ticks+" FPS :: "+frames);
+				if(ticks >= 55 && frames >= 50){
+					RNG.extraTime();
+					RNG.extraTime();
+				}
 				frames = 0;
 				ticks = 0;
 			}

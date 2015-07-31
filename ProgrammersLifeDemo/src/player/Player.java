@@ -17,6 +17,9 @@ public class Player {
 	public Player(){}
 	
 	public void initializeForNewGame(){
+		baseStats.initializeNewGame();
+		points.initializeNewGame();
+		skills.initializeNewGame();
 		// to be implemented
 	}
 	

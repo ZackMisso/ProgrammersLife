@@ -6,6 +6,6 @@ package core;
 
 public class Driver {
 	public static void main(String[] args){
-		// to be implemented
+		new Game(360,480,"Programmers Life Demo - v.0.0.1");
 	}
 }

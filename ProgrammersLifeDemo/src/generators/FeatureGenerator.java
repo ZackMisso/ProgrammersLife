@@ -9,22 +9,27 @@ import dataStructures.Repository;
 import player.Player;
 
 public class FeatureGenerator {
-	public Feature generateHardFeature(Player player, Repository repository){
+	public static Feature generateHardFeature(Player player, Repository repository){
 		// to be implemented
 		return null;
 	}
 	
-	public Feature generateMediumFeature(Player player, Repository repository){
+	public static Feature generateMediumFeature(Player player, Repository repository){
 		// to be implemented
 		return null;
 	}
 	
-	public Feature generateEasyFeature(Player player, Repository repository){
+	public static Feature generateEasyFeature(Player player, Repository repository){
 		// to be implemented
 		return null;
 	}
 	
-	public ArrayList<Feature> generateBatchOfFeatures(Player player, Repository repository){
+	public static ArrayList<Feature> generateBatchOfFeatures(Player player, Repository repository){
+		// to be implemented
+		return null;
+	}
+	
+	public static Feature createDummyFeature(){
 		// to be implemented
 		return null;
 	}

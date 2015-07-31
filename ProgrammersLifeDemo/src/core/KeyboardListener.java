@@ -7,7 +7,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 public class KeyboardListener implements KeyListener {
-	public GameThread thread;
+	private GameThread thread;
 	
 	public KeyboardListener(GameThread param){
 		thread = param;

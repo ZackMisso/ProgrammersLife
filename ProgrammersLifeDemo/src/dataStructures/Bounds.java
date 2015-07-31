@@ -6,6 +6,14 @@ public class Bounds {
 	private int width;
 	private int height;
 	
+	public boolean contains(int x, int y){
+		if(x < xpos || x > xpos + width)
+			return false;
+		if(y < ypos || y > ypos + height)
+			return false;
+		return true;
+	}
+	
 	// getter methods
 	public int getXpos(){return xpos;}
 	public int getYpos(){return ypos;}

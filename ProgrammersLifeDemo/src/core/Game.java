@@ -6,10 +6,10 @@ package core;
 import javax.swing.JFrame;
 
 public class Game {
-	public final JFrame window;
-	public final GameThread thread;
-	public final KeyboardListener key;
-	public final MousepadListener mouse;
+	private final JFrame window;
+	private final GameThread thread;
+	private final KeyboardListener key;
+	private final MousepadListener mouse;
 	
 	public Game(int x, int y, String title){
 		window = new JFrame();
@@ -27,4 +27,7 @@ public class Game {
 		window.addMouseListener(mouse);
 		new Thread(thread).start();
 	}
+	
+	// getter methods
+	public JFrame getWindow(){return window;}
 }

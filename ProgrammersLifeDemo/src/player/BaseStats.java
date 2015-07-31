@@ -13,6 +13,21 @@ public class BaseStats {
 	private int physique;
 	private int enthusiasm;
 	
+	public void initializeNewGame(){
+		intelligence = 1;
+		creativity = 1;
+		personality = 1;
+		ambition = 1;
+		luck = 1;
+		physique = 1;
+		enthusiasm = 1;
+	}
+	
+	public String toString(){
+		// to be implemented
+		return "";
+	}
+	
 	// getter methods
 	public int getIntelligence(){return intelligence;}
 	public int getCreativity(){return creativity;}

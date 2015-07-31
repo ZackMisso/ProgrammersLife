@@ -4,19 +4,21 @@
 
 package logger;
 
-public class IntTracker {
-	private String name;
+public class IntTracker extends Tracker{
 	private int track;
 	
 	public void increment(){
 		track++;
 	}
 	
+	public String toString(){
+		//return "int :: "+name+" track :: "+track;
+		return "";
+	}
+	
 	// getter methods
-	public String getName(){return name;}
 	public int getTrack(){return track;}
 	
 	// setter methods
-	public void setName(String param){name = param;}
 	public void setTrack(int param){track = param;}
 }

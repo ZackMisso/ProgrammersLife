@@ -8,22 +8,27 @@ import dataStructures.Assignment;
 import player.Player;
 
 public class AssignmentGenerator {
-	public Assignment generateHardAssignment(Player player){
+	public static Assignment generateHardAssignment(Player player){
 		// to be implemented
 		return null;
 	}
 	
-	public Assignment generateMediumAssignment(Player player){
+	public static Assignment generateMediumAssignment(Player player){
 		// to be implemented
 		return null;
 	}
 	
-	public Assignment generateEasyAssignment(Player player){
+	public static Assignment generateEasyAssignment(Player player){
 		// to be implemented
 		return null;
 	}
 	
-	public ArrayList<Assignment> generateBatchOfAssignments(Player player){
+	public static ArrayList<Assignment> generateBatchOfAssignments(Player player){
+		// to be implemented
+		return null;
+	}
+	
+	public static Assignment generateDummyAssignment(){
 		// to be implemented
 		return null;
 	}

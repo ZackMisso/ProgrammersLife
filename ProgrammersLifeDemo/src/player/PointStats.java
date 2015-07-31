@@ -9,6 +9,17 @@ public class PointStats {
 	private int checkPoints;
 	private int starPoints;
 	
+	public void initializeNewGame(){
+		brainPoints = 0;
+		checkPoints = 0;
+		starPoints = 0;
+	}
+	
+	public String toString(){
+		// to be implemented
+		return "";
+	}
+	
 	// getter methods
 	public int getBrainPoints(){return brainPoints;}
 	public int getCheckPoints(){return checkPoints;}

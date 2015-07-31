@@ -4,15 +4,17 @@
 
 package logger;
 
-public class FloatTracker {
-	private String name;
+public class FloatTracker extends Tracker{
 	private float track;
 	
+	public String toString(){
+		//return "float :: "+name+" track :: "+track;
+		return "";
+	}
+	
 	// getter methods
-	public String getName(){return name;}
 	public float getTrack(){return track;}
 	
 	// setter methods
-	public void setName(String param){name = param;}
 	public void setTrack(float param){track = param;}
 }

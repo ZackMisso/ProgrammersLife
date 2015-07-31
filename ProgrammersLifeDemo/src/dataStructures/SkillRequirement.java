@@ -12,6 +12,7 @@ public class SkillRequirement {
 		// to be implemented
 		return false;
 	}
+	
 	// getter methods
 	public Skill getSkill(){return skill;}
 	public int getNeededLevel(){return neededLevel;}

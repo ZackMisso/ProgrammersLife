@@ -14,12 +14,17 @@ public class EventController {
 	}
 	
 	public ArrayList<Event> getAllEventsForMonth(TimeStamp time){
-		// to be implemented
-		return null;
+		ArrayList<Event> list = new ArrayList<>();
+		for(int i=0;i<events.size();i++)
+			if(events.get(i).getDate().getMonth() == time.getMonth())
+				list.add(events.get(i));
+		return events;
 	}
 	
 	public void clearMonth(TimeStamp time){
-		// to be implemented
+		for(int i=0;i<events.size();i++)
+			if(events.get(i).getDate().getMonth()==time.getMonth())
+				events.remove(i--);
 	}
 	
 	// getter methods

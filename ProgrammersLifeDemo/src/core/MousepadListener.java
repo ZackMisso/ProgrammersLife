@@ -7,7 +7,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 public class MousepadListener implements MouseListener{
-	public GameThread thread;
+	private GameThread thread;
 	
 	public MousepadListener(GameThread param){
 		thread = param;

@@ -29,6 +29,10 @@ public class GameView {
 			subViews.get(i).draw(g);
 	}
 	
+	public boolean wasClicked(int x,int y){
+		return bounds.contains(x,y);
+	}
+	
 	public void handleClick(int x,int y){
 		// to be implemented
 		for(int i=0;i<subViews.size();i++)

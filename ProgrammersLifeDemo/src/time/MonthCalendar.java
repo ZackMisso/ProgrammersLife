@@ -62,6 +62,7 @@ public class MonthCalendar {
 	
 	// getter methods
 	public ArrayList<Day> getDays(){return days;}
+	public EventController getEventReference(){return eventReference;}
 	public String getTitle(){return title;}
 	public int getCurrentMonth(){return currentMonth;}
 	

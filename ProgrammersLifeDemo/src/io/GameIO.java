@@ -10,6 +10,7 @@ public class GameIO {
 	public void loadGame(GameStateController controller){
 		Scanner scanner = new Scanner("");
 		// to be implemented
+		scanner.close();
 	}
 	
 	public void saveGame(GameStateController controller){

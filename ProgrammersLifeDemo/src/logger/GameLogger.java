@@ -8,12 +8,12 @@ import java.util.ArrayList;
 // This class exists to send data of the testers playthrough to the creator
 
 public class GameLogger {
-	private ArrayList<Tracker> floats;
+	private ArrayList<Tracker> trackers;
 	private long startTime;
+	private long endTime;
 	
 	public GameLogger(){
-		floats = new ArrayList<>();
-		ints = new ArrayList<>();
+		trackers = new ArrayList<>();
 	}
 	
 	public Tracker getTrackerForName(String name){
@@ -22,6 +22,12 @@ public class GameLogger {
 	}
 	
 	// getter methods
-	public ArrayList<FloatTracker> getFloats(){return floats;}
-	public ArrayList<IntTracker> getInts(){return ints;}
+	public ArrayList<Tracker> getFloats(){return trackers;}
+	public long getStartTime(){return startTime;}
+	public long getEndTime(){return endTime;}
+	
+	// setter methods
+	public void setTrackers(ArrayList<Tracker> param){trackers = param;}
+	public void setStartTime(long param){startTime = param;}
+	public void setEndTime(long param){endTime = param;}
 }

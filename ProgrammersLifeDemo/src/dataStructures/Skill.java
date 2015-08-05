@@ -26,6 +26,11 @@ public class Skill {
 		return false;
 	}
 	
+	public String toString(){
+		// to be implemented
+		return "";
+	}
+	
 	// getter methods
 	public ArrayList<SkillRequirement> getReqs(){return reqs;}
 	public String getName(){return name;}

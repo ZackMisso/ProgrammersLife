@@ -29,7 +29,7 @@ public class GameStateController {
 	}
 	
 	public void update(){
-		// to be implemented
+		currentView.update();
 	}
 	
 	public void draw(Graphics2D g){
@@ -37,11 +37,11 @@ public class GameStateController {
 	}
 	
 	public void handleKey(char key, boolean released){
-		// to be implemented
+		currentView.handleKey(key, released);
 	}
 	
 	public void handleClick(int x, int y){
-		// to be implemented
+		currentView.handleClick(x, y);
 	}
 	
 	// getter methods

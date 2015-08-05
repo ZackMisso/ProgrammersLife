@@ -9,7 +9,8 @@ public class SkillRequirement {
 	private int neededLevel;
 	
 	public boolean checkReq(){
-		// to be implemented
+		if(skill.getLevel() >= neededLevel)
+			return true;
 		return false;
 	}
 	

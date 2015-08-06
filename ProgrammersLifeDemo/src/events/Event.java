@@ -5,15 +5,14 @@
 package events;
 import time.TimeStamp;
 
-public class Event {
+public abstract class Event {
 	private EventController reference;
-	private TimeStamp date;
+	
+	public abstract void reactToEvent(PlayerStatus status);
 	
 	// getter methods
 	public EventController getReference(){return reference;}
-	public TimeStamp getDate(){return date;}
 	
 	// setter methods
 	public void setReference(EventController param){reference = param;}
-	public void setDate(TimeStamp param){date = param;}
 }

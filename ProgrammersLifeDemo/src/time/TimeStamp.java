@@ -9,6 +9,11 @@ public class TimeStamp {
 	private int month;
 	private int year;
 	
+	public String toString(){
+		// to be implemented
+		return "";
+	}
+	
 	// getter methods
 	public int getDay(){return day;}
 	public int getMonth(){return month;}

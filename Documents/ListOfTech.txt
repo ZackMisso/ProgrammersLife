@@ -45,357 +45,685 @@ In-Depth Description
 Java ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    1000000 Points
 
 C++ ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    C Level 1
   Level 2 Reqs ::
+    1000 Points
+    C Level 2
   Level 3 Reqs ::
+    5000 Points
+    C Level 3
   Level 4 Reqs ::
+    30000 Points
+    C Level 4
+    X86 Level 2
   Level 5 Reqs ::
+    200000 Points
+    X86 Level 3
   Level 6 Reqs ::
+    1000000 Points
+    X86 Level 5
+    C Level 5
   Level 7 Reqs ::
+    10000000 Points
+    C Level 6
+    X86 Level 6
 
 
 Python ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 Ruby ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    Python Level 1
   Level 2 Reqs ::
+    1000 Points
+    Python Level 2
   Level 3 Reqs ::
+    5000 Points
+    Python Level 3
   Level 4 Reqs ::
+    30000 Points
+    Python Level 4
   Level 5 Reqs ::
+    200000 Points
+    Python Level 5
+    Javascript Level 3
   Level 6 Reqs ::
+    1000000 Points
+    Javascript Level 4
   Level 7 Reqs ::
+    10000000 Points
+    Python Level 6
+    Javascript Level 5
 
 C ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 Objective-C ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    C++ Level 1
+    Java Level 1
   Level 2 Reqs ::
+    1000 Points
+    C++ Level 2
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 Haskell ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 HTML ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 CSS ::
 Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    HTML Level 1
   Level 2 Reqs ::
+    1000 Points
+    HTML Level 2
   Level 3 Reqs ::
+    5000 Points
+    HTML Level 3
   Level 4 Reqs ::
+    30000 Points
+    HTML Level 4
   Level 5 Reqs ::
+    200000 Points
+    HTML Level 5
   Level 6 Reqs ::
+    1000000 Points
+    HTML Level 6
   Level 7 Reqs ::
+    10000000 Points
+    HTML Level 7
 
 Javascript ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 Node.js ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    Javascript Level 2
   Level 2 Reqs ::
+    1000 Points
+    Javascript Level 3
   Level 3 Reqs ::
+    5000 Points
+    Javascript Level 4
   Level 4 Reqs ::
+    30000 Points
+    Javascript Level 5
   Level 5 Reqs ::
+    200000 Points
+    Javascript Level 6
   Level 6 Reqs ::
+    1000000 Points
+    Javascript Level 7
   Level 7 Reqs ::
+    10000000 Points
 
 Angular ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 C# ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 X86 ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 OpenGL ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    C++ Level 2
   Level 2 Reqs ::
+    1000 Points
+    Computer Graphics Level 1
+    C++ Level 3
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 OpenCL ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    C++ Level 3
+    OpenGL Level 1
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 Unity ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Ponts
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 UnrealEngine ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 DataStructures ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 GreedyAlgorithms ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    DataStructures Level 1
   Level 2 Reqs ::
+    1000 Points
+    DataStructures Level 2
   Level 3 Reqs ::
+    5000 Points
+    DataStructures Level 3
   Level 4 Reqs ::
+    30000 Points
+    DataStructures Level 4
   Level 5 Reqs ::
+    200000 Points
+    DataStructures Level 5
   Level 6 Reqs ::
+    1000000 Points
+    DataStructures Level 6
   Level 7 Reqs ::
+    10000000 Points
+    DataStructures Level 7
 
 DynamicProgramming ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    DataStructures Level 1
   Level 2 Reqs ::
+    1000 Points
+    DataStructures Level 2
   Level 3 Reqs ::
+    5000 Points
+    DataStructures Level 3
   Level 4 Reqs ::
+    30000 Points
+    DataStructures Level 4
   Level 5 Reqs ::
+    200000 Points
+    DataStructures Level 5
   Level 6 Reqs ::
+    1000000 Points
+    DataStructures Level 6
   Level 7 Reqs ::
+    10000000 Points
+    DataStructures Level 7
 
 ProgrammingLanguages ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    Java Level 2
+    C++ Level 2
+    Python Level 2
   Level 2 Reqs ::
+    1000 Points
+    FunctionalLanguages Level 2
+    ImperitiveLanguages Level 2
   Level 3 Reqs ::
+    5000 Points
+    FunctionalLanguages Level 3
+    ImperitiveLanguages Level 3
   Level 4 Reqs ::
+    30000 Points
+    Compilers Level 2
   Level 5 Reqs ::
+    200000 Points
+    FunctionalLanguages Level 4
+    ImperitiveLanguages Level 4
+    Compilers Level 3
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
+    FunctionalLanguages Level 6
+    ImperitiveLanguages Level 6
+    Compilers Level 4
 
 ComputerGraphics ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    C++ Level 3
   Level 2 Reqs ::
+    1000 Points
+    C++ Level 4
+    OpenGL Level 1
   Level 3 Reqs ::
+    5000 Points
+    C++ Level 5
+    OpenGL Level 2
   Level 4 Reqs ::
+    30000 Points
+    OpenGL Level 3
+    OpenCL Level 1
   Level 5 Reqs ::
+    200000 Points
+    OpenGL Level 5
   Level 6 Reqs ::
+    1000000 Points
+    OpenCL Level 4
   Level 7 Reqs ::
+    10000000 Points
+    OpenGL Level 7
+    C++ Level 7
 
 AI ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    Python Level 2
   Level 2 Reqs ::
+    1000 Points
+    Python Level 3
+    NeuralNetworks Level 1
   Level 3 Reqs ::
+    5000 Points
+    Python Level 4
+    NeuralNetworks Level 2
   Level 4 Reqs ::
+    30000 Points
+    NeuralNetworks Level 3
   Level 5 Reqs ::
+    200000 Points
+    NeuralNetworks Level 4
   Level 6 Reqs ::
+    1000000 Points
+    NeuralNetworks Level 5
   Level 7 Reqs ::
+    10000000 Points
+    NeuralNetworks Level 6
 
 ComputerArchitecture ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    C Level 2
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 Compilers ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
+    C Level 2
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 ObjectOrientedProgramming ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 FunctionalLanguages ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 ImperitiveLanguages ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 MachineLearning ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 Ray-Tracing ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 NeuralNetworks ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 AutomataTheory ::
   Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points
 
 UIDesign ::
   Pre-Reqs ::
     HTML Level 1
     CSS Level 1
   Level 1 Reqs ::
+    100 Points
     HTML Level 3
     CSS Level 2
   Level 2 Reqs ::
+    1000 Points
     HTML Level 5
     CSS Level 3
   Level 3 Reqs ::
+    5000 Points
     HTML Level 7
     CSS Level 4
   Level 4 Reqs ::
+    30000 Points
     Javascript 1
     CSS Level 5
   Level 5 Reqs ::
+    200000 Points
     Javascript 3
     CSS Level 6
   Level 6 Reqs ::
+    1000000 Points
     Javascript 5
     CSS Level 7
   Level 7 Reqs ::
+    10000000 Points
     Javascript 7
 
 
@@ -404,33 +732,40 @@ WebDesign ::
     HTML Level 1
     CSS Level 1
   Level 1 Reqs ::
+    100 Points
     HTML Level 2
     CSS Level 2
     UIDesign Level 1
   Level 2 Reqs ::
+    1000 Points
     Javascript Level 1
     HTML Level 3
     CSS Level 3
     UIDesign Level 2
   Level 3 Reqs ::
+    5000 Points
     HTML Level 4
     CSS Level 4
     UIDesign Level 3
   Level 4 Reqs ::
+    30000 Points
     Javascript Level 3
     HTML Level 5
     CSS Level 5
     UIDesign Level 4
   Level 5 Reqs ::
+    200000 Points
     HTML Level 6
     CSS Level 6
     UIDesign Level 5
   Level 6 Reqs ::
+    1000000 Points
     Javascript Level 5
     HTML Level 7
     CSS Level 7
     UIDesign Level 6
   Level 7 Reqs ::
+    10000000 Points
     Javascript Level 6
     UIDesign Level 7
 
@@ -440,42 +775,49 @@ WebDevelopment ::
     HTML Level 1
     CSS Level 1
   Level 1 Reqs ::
+    100 Points
     Javascript Level 2
     Ruby Level 1
     Python Level 1
     HTML Level 3
     CSS Level 3
   Level 2 Reqs ::
+    1000 Points
     Javascript Level 3
     Ruby Level 2
     Python Level 2
     HTML Level 5
     CSS Level 5
   Level 3 Reqs ::
+    5000 Points
     Javascript Level 4
     Ruby Level 3
     Python Level 3
     Node.js Level 1
     Angular Level 1
   Level 4 Reqs ::
+    30000 Points
     Javascript Level 5
     Ruby Level 4
     Python Level 4
     Node.js Level 2
     Angular Level 2
   Level 5 Reqs ::
+    200000 Points
     Javascript Level 5
     Ruby Level 4
     Python Level 4
     Node.js Level 3
     Angular Level 3
   Level 6 Reqs ::
+    1000000 Points
     Javascript Level 5
     Ruby Level 5
     Python Level 5
     Node.js Level 5
     Angular Level 5
   Level 7 Reqs ::
+    10000000 Points
     Javascript Level 7
     Ruby Level 7
     Python Level 7
@@ -484,10 +826,18 @@ WebDevelopment ::
 
 3D Modeling ::
   Pre-Reqs ::
+  Pre-Reqs ::
   Level 1 Reqs ::
+    100 Points
   Level 2 Reqs ::
+    1000 Points
   Level 3 Reqs ::
+    5000 Points
   Level 4 Reqs ::
+    30000 Points
   Level 5 Reqs ::
+    200000 Points
   Level 6 Reqs ::
+    1000000 Points
   Level 7 Reqs ::
+    10000000 Points

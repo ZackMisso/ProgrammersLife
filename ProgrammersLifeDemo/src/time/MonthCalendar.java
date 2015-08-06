@@ -23,40 +23,89 @@ public class MonthCalendar {
 	public void initializeMonth(){
 		if(currentMonth == 1){
 			title = "January";
-			// to be implemented
+			days.clear();
+			for(int i=0;i<31;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}else if(currentMonth == 2){
 			title = "February";
-			// to be implemented
+			for(int i=0;i<28;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}else if(currentMonth == 3){
 			title = "March";
-			// to be implemented
+			for(int i=0;i<31;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}else if(currentMonth == 4){
 			title = "April";
-			// to be implemented
+			for(int i=0;i<30;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}else if(currentMonth == 5){
 			title = "May";
-			// to be implemented
+			for(int i=0;i<31;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}else if(currentMonth == 6){
 			title = "June";
-			// to be implemented
+			for(int i=0;i<30;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}else if(currentMonth == 7){
 			title = "July";
-			// to be implemented
+			for(int i=0;i<31;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}else if(currentMonth == 8){
 			title = "August";
-			// to be implemented
+			for(int i=0;i<31;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}else if(currentMonth == 9){
 			title = "September";
-			// to be implemented
+			for(int i=0;i<30;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}else if(currentMonth == 10){
 			title = "October";
-			// to be implemented
+			for(int i=0;i<31;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}else if(currentMonth == 11){
 			title = "November";
-			// to be implemented
+			for(int i=0;i<30;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}else if(currentMonth == 12){
 			title = "December";
-			// to be implemented
+			for(int i=0;i<31;i++){
+				Day day = new Day();
+				// make changes on the day
+				days.add(day);
+			}
 		}
 	}
 	
